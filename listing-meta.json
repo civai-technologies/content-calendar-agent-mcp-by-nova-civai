@@ -1,0 +1,23 @@
+{
+  "slug": "content-calendar-agent",
+  "repo": "content-calendar-agent-mcp-by-nova-civai",
+  "github_url": "https://github.com/civai-technologies/content-calendar-agent-mcp-by-nova-civai",
+  "topics": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "nova-by-civai",
+    "civai",
+    "cursor",
+    "claude-desktop",
+    "streamable-http",
+    "remote-mcp",
+    "gemini-cli-extension",
+    "content-calendar",
+    "marketing",
+    "social-content",
+    "content",
+    "calendar"
+  ],
+  "mcp_url": "https://nova.civai.co/mcp/agents/content-calendar-agent"
+}
