@@ -7,11 +7,13 @@ This file is for AI assistants setting this server up on a user's behalf.
 A hosted remote MCP server. There is nothing to clone, build or run: it is a
 Streamable HTTP endpoint at `https://nova.civai.co/mcp/agents/content-calendar-agent`.
 
-The server exposes 9 tools.
+The server exposes 11 tools.
 
 ## Step 1: get a credential
 
-Ask the user to create a programmatic Nova API key at
+If the client supports MCP OAuth (it opens a sign-in page when a tool is first
+called), skip this step and the headers below: the user signs in to Nova there.
+Otherwise, ask the user to create a programmatic Nova API key at
 https://nova.civai.co/api-keys and paste it back. Do not try to create one
 for them, and do not write the key into any file that gets committed.
 
